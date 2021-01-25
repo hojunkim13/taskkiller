@@ -9,6 +9,12 @@ It is designed to support the mining of PC Bangs that have left computing resour
 Deploy as an executable file for comfortable.  
 사용자의 편의를 위하여 실행파일로 배포합니다.
 
+Executable file is made with pyinstaller 4.2.0  
+실행 파일은 pyinstaller 4.2.0 버전을 통하여 제작되었습니다.
+```
+pyinstllaer -i ico.ico --onefile --noconsole taskkiller.py
+```
+
 Please test with test process such as MSPaint('mspaint.exe') before using.  
 사용 전 그림판(mspaint.exe) 등의 파일로 테스트하시길 권합니다.
    
